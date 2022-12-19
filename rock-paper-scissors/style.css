@@ -1,0 +1,46 @@
+body{
+    background-color: #1B4079;
+    color:#ffcb4c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+.container{
+    width: 50%;
+    padding-left: 25%; 
+    padding-right: 25%; 
+    margin: auto;
+    text-align: center;
+}
+.container .header{
+    padding: 1%;
+    background-color: #22487c;
+}
+.scoreboard{
+    text-align: center;
+}
+.scores{
+    display: flex;
+    justify-content: center;
+}
+.scores h3{
+    margin: 2%;
+}
+.move-btns-container{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: auto;
+}
+.move{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 5rem;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition:  200ms ;
+}
+.move:hover{
+    transform: scale(1.5);
+    transition: all 200ms ;
+}
